@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;img&gt; tag cheatsheet</title>
+    <link rel="stylesheet" href="./resources/css/cheatsheetStyles.css">
+</head>
+<body>
+    <header>
+       <h1>Cheatsheet about the HTML &lt;img&gt; tag</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Image attributes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Attribute</th>
+                        <th>Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="attribute">alt</td>
+                        <td class="name">Alternative</td>
+                        <td class="description">Defines an alternative text description of the image.</td>
+                    </tr>
+                    <tr>
+                        <td class="attribute">height</td>
+                        <td class="name">Height</td>
+                        <td class="description">The intrinsic height of the image, in pixels. Must be an integer without a unit.</td>
+                    </tr>
+                    <tr>
+                        <td class="attribute">width</td>
+                        <td class="name">Width</td>
+                        <td class="description">The intrinsic width of the image in pixels. Must be an integer without a unit.</td>
+                    </tr>
+                    <tr>
+                        <td class="attribute">src</td>
+                        <td class="name">Source</td>
+                        <td class="description">The image URL. Mandatory for the &lt;img&gt; element.</td>
+                    </tr>
+                    <tr>
+                        <td class="attribute">decoding</td>
+                        <td class="name">Decoding</td>
+                        <td class="description">Provides an image decoding hint to the browser. Allowed values: <span class="decodingValues">sync</span>, <span class="decodingValues">async</span>, <span class="decodingValues">auto</span>.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Image formats most commonly used</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Format</th>
+                        <th>Full name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="attribute">APNG</td>
+                        <td class="name">Animated Portable Network Graphics</td>
+                        <td class="description">Good choice for lossless animation sequences (GIF is less performant)</td>
+                    </tr>
+                    <tr>
+                        <td class="attribute">AVIF</td>
+                        <td class="name">AV1 Image File Format</td>
+                        <td class="description">Good choice for both images and animated images due to high performance.</td>
+                    </tr>
+                    <tr>
+                        <td class="attribute">GIF</td>
+                        <td class="name">Graphics Interchange Format</td>
+                        <td class="description">Good choice for <em>simple</em> images and animations.</td>
+                    </tr>
+                    <tr>
+                        <td class="attribute">JPEG</td>
+                        <td class="name">Joint Photographic Expert Group</td>
+                        <td class="description">Good choice for lossy compression of still images (currently the most popular).</td>
+                    </tr>
+                    <tr>
+                        <td class="attribute">PNG</td>
+                        <td class="name">Portable Network Graphics</td>
+                        <td class="description">Good choice for lossless compression of still images (slightly better quality than JPEG).</td>
+                    </tr>
+                    <tr>
+                        <td class="attribute">SVG</td>
+                        <td class="name">Scalable Vector Graphics</td>
+                        <td class="description">Vector image format. Use for images that must be drawn accurately at different sizes.</td>
+                    </tr>
+                    <tr>
+                        <td class="attribute">WebP</td>
+                        <td class="name">Web Picture format</td>
+                        <td class="description">Excellent choice for both images and animated images.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Source: mdn web docs - <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img" target="_blank">&lt;img&gt;: The Image Embed element</a></p>
+    </footer>
+
+</body>
+</html>
