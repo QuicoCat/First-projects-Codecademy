@@ -3,7 +3,11 @@
 }
 
 body {
-    background-image: url("../images/pexels-pixabay-235985.jpg");
+    background-color: lightblue;
+}
+
+header nav {
+    font-size: 18px;
 }
 
 header, h2 {
