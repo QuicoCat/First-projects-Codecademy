@@ -1,62 +1,62 @@
 @font-face {
     font-family: Poppins;
-    src: url(./resources/fonts/Poppins/Poppins-Regular.ttf) format(truetype);
+    src: url(../fonts/Poppins/Poppins-Regular.ttf) format(truetype);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: PoppinsItalic;
-    src: url(./resources/fonts/Poppins/Poppins-Italic.ttf) format(truetype);
+    src: url(../fonts/Poppins/Poppins-Italic.ttf) format(truetype);
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: PoppinsBold;
-    src: url(./resources/fonts/Poppins/Poppins-Bold.ttf) format(truetype);
+    src: url(../fonts/Poppins/Poppins-Bold.ttf) format(truetype);
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: ShantellSans;
-    src: url(./resources/fonts/ShantellSans/static/ShantellSans-Regular.ttf) format(truetype);
+    src: url(../fonts/ShantellSans/static/ShantellSans-Regular.ttf) format(truetype);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: ShantellSansItalic;
-    src: url(./resources/fonts/ShantellSans/static/ShantellSans-Italic.ttf) format(truetype);
+    src: url(../fonts/ShantellSans/static/ShantellSans-Italic.ttf) format(truetype);
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: ShantellSansBold;
-    src: url(./resources/fonts/ShantellSans/static/ShantellSans-Bold.ttf) format(truetype);
+    src: url(../fonts/ShantellSans/static/ShantellSans-Bold.ttf) format(truetype);
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: LibreBaskerville;
-    src: url(./resources/fonts/LibreBaskerville/LibreBaskerville-Regular.ttf) format(truetype);
+    src: url(../fonts/LibreBaskerville/LibreBaskerville-Regular.ttf) format(truetype);
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: LibreBaskervilleItalic;
-    src: url(./resources/fonts/LibreBaskerville/LibreBaskerville-Italic.ttf) format(truetype);
+    src: url(../fonts/LibreBaskerville/LibreBaskerville-Italic.ttf) format(truetype);
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: LibreBaskervilleBold;
-    src: url(./resources/fonts/LibreBaskerville/LibreBaskerville-Bold.ttf) format(truetype);
+    src: url(../fonts/LibreBaskerville/LibreBaskerville-Bold.ttf) format(truetype);
     font-weight: 700;
     font-style: normal;
 }
