@@ -8,6 +8,7 @@ body {
 
 header nav {
     font-size: 18px;
+    text-align: left;
 }
 
 header, h2 {
