@@ -1,0 +1,198 @@
+@font-face {
+    font-family: Poppins;
+    src: url(./resources/fonts/Poppins/Poppins-Regular.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: PoppinsItalic;
+    src: url(./resources/fonts/Poppins/Poppins-Italic.ttf) format(truetype);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: PoppinsBold;
+    src: url(./resources/fonts/Poppins/Poppins-Bold.ttf) format(truetype);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ShantellSans;
+    src: url(./resources/fonts/ShantellSans/static/ShantellSans-Regular.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ShantellSansItalic;
+    src: url(./resources/fonts/ShantellSans/static/ShantellSans-Italic.ttf) format(truetype);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: ShantellSansBold;
+    src: url(./resources/fonts/ShantellSans/static/ShantellSans-Bold.ttf) format(truetype);
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: LibreBaskerville;
+    src: url(./resources/fonts/LibreBaskerville/LibreBaskerville-Regular.ttf) format(truetype);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: LibreBaskervilleItalic;
+    src: url(./resources/fonts/LibreBaskerville/LibreBaskerville-Italic.ttf) format(truetype);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: LibreBaskervilleBold;
+    src: url(./resources/fonts/LibreBaskerville/LibreBaskerville-Bold.ttf) format(truetype);
+    font-weight: 700;
+    font-style: normal;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+h2 {
+    margin: 10px 10px;
+}
+
+.colors{
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+
+.colors p {
+    display:inline-block;
+    text-align: center;
+    padding: 15px 0;
+    margin: 15px 10px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 6px;
+}
+
+.dodgerBlue {
+    background-color: dodgerblue;
+    width: 22%;
+}
+
+.paleGreen {
+    background-color: palegreen;
+    width: 22%;
+}
+
+.darkGray {
+    background-color: darkgray;
+    width: 22%;
+}
+
+.lightBlue {
+    background-color: lightblue;
+    width: 22%;
+}
+
+.fonts {
+    margin-top: 20px;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+
+.fonts section {
+    display: inline-block;
+ }
+
+.poppins {
+    margin: 10px 10px;
+}
+
+ .poppinsTitle {
+    text-decoration: underline dotted;
+    font-family: Poppins;
+    font-size: 20px;
+ }
+
+ .poppinsRegular {
+    font-family: Poppins;
+ }
+
+ .poppinsItalic {
+    font-family: PoppinsItalic;
+ }
+
+ .poppinsBold {
+    font-family: PoppinsBold;
+ }
+
+.shantellSansTitle {
+    font-family: ShantellSans;
+    font-size: 20px;
+    text-decoration: underline dotted;
+}
+
+.shantellSansRegular {
+    font-family: ShantellSans;
+}
+
+.shantellSansItalic {
+    font-family: ShantellSansItalic;
+}
+
+.shantellSansBold {
+    font-family: ShantellSansBold;
+}
+
+.libreBaskerville {
+    margin-left: 10px;
+}
+
+.libreBaskervilleTitle {
+    font-family: LibreBaskerville;
+    font-size: 20px;
+    text-decoration: underline dotted;
+}
+
+.libreBaskervilleRegular {
+    font-family: LibreBaskerville;
+}
+
+.libreBaskervilleItalic {
+    font-family: LibreBaskervilleItalic;
+}
+
+.libreBaskervilleBold {
+    font-family: LibreBaskervilleBold;
+}
+
+.textStyles {
+    margin-top: 20px;
+    border: 2px solid gray;
+    border-radius: 6px;
+}
+
+.textStyles section {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.h1Style {
+    margin-left: 10px;
+}
+
