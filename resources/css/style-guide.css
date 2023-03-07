@@ -81,32 +81,36 @@ h2 {
 }
 
 .colors p {
-    display:inline-block;
-    text-align: center;
+    display:inline-flex;
     padding: 15px 0;
     margin: 15px 10px;
     box-shadow: 5px 5px 5px gray;
     border-radius: 6px;
+    justify-content: center;
 }
 
 .dodgerBlue {
     background-color: dodgerblue;
     width: 22%;
+    min-width: fit-content;
 }
 
 .paleGreen {
     background-color: palegreen;
     width: 22%;
+    min-width: fit-content;
 }
 
 .darkGray {
     background-color: darkgray;
     width: 22%;
+    min-width: fit-content;
 }
 
 .lightBlue {
     background-color: lightblue;
     width: 22%;
+    min-width: fit-content;
 }
 
 .fonts {
@@ -139,6 +143,10 @@ h2 {
 
  .poppinsBold {
     font-family: PoppinsBold;
+ }
+
+.shantellSans {
+    margin-left: 10px;
  }
 
 .shantellSansTitle {
