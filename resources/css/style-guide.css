@@ -82,7 +82,7 @@ h2 {
 
 .colors p {
     display:inline-flex;
-    padding: 15px 0;
+    padding: 15px 15px;
     margin: 15px 10px;
     box-shadow: 5px 5px 5px gray;
     border-radius: 6px;
