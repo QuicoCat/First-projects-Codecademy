@@ -126,6 +126,11 @@ header h1 {
 
     #first-section, #second-section {
         width: 100%;
+        padding: 2% 0 2% 0;
+    }
+
+    #first-section h3, #second-section h3 {
+        padding: 0 2% 0 2%;
     }
 }
 
