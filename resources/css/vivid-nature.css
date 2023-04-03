@@ -1,0 +1,271 @@
+/* <-------------- RESET CSS --------------> */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* <-------------- WEBSITE CSS --------------> */
+
+html {
+    background-image: url(./resources/images/willian-justen-de-vasconcellos--2Z6SevtTXQ-unsplash.jpg);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    flex: 1 1;
+    justify-content: center;
+    background-color: rgba(3, 255, 3, 0.1);
+    border-bottom: 1px solid gray;
+}
+
+
+header img {
+    width: 40%;
+    max-width: 500px;
+    height: auto;
+    margin: 1%;
+}
+
+.header-text {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(37, 179, 67, 0.5);
+    padding: 1%;
+}
+
+header h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 6rem;
+    text-shadow: 3px 3px 3px black;
+    color: greenyellow;
+}
+
+header h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4rem;
+    color: greenyellow;
+    text-shadow: 3px 3px 3px black;
+}
+
+@media only screen and (max-width: 425px) {
+    header {
+        flex-direction: column;
+        text-align: left;
+    }
+    
+    header img {
+        margin: 0;
+        width: 80%;
+    }
+
+    .header-text {
+        padding: 1% 1% 3% 1%;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    header h2 {
+        font-size: 2rem;
+    }
+}
+
+#main {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+}
+
+@media only screen and (max-width: 425px) {
+    #main {
+        width: 100%;
+    }
+}
+
+
+/* --------------- Company description box --------------- */
+
+.company-description {
+    display: flex;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 1%;
+    margin-left: 1%;
+    background-color: rgba(99, 187, 194, 0.555);
+    font-size: 1.2rem;
+    padding: 0 2% 2% 0;
+    border: 1px solid rgb(151, 147, 147);
+}
+
+
+.company-description li {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+@media only screen and (max-width: 425px) {
+    .company-description {
+        margin: 3% 0 0 0;
+        font-size: 1.5rem;
+        padding-bottom: 3%;
+        font-size: 1rem;
+    }
+
+    .company-description li {
+        margin-right: 3%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+}
+
+/* --------------- Product images section --------------- */
+
+#product-images {
+    margin: 1% 1% 1% 1%;
+    display: flex;
+    column-gap: 1%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#product-images .image {
+    margin-top: 1%;
+    max-width: 1000px;
+}
+
+#product-images img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(49, 39, 38);
+    transition: box-shadow 1s;
+}
+
+#product-images img:hover {
+    box-shadow: none;
+}
+
+#product-images .image p {
+    margin-top: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid black;
+    padding: 2%;
+    background-color: rgba(183, 210, 30, 0.685);
+}
+
+@media only screen and (max-width: 425px) {
+    #product-images {
+        margin: 1% 0% 1% 0%;
+        flex-direction: column;
+        column-gap: 0%;
+    }
+
+    #product-images img {
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    #product-images .image p {
+        border: none;
+    }
+}
+
+
+/* --------------- Employees section --------------- */
+
+#employees-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#employees-section img {
+    width: 25%;
+    max-width: 300px;
+}
+
+#employees-section .employee {
+    display: flex;
+    background-color: rgba(240, 248, 255, 0.336);
+    border-top: 2px solid rgba(0, 0, 0, 0.555);
+    margin-top: 0.5%;
+}
+
+.employee-text {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+#employees-section .employee h2 {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline 1px;
+}
+
+#employees-section .employee p {
+    margin-top: 1%;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media only screen and (max-width: 425px) {
+    #employees-section img {
+        width: 40%;
+    }
+
+    #employees-section .employee {
+        align-items: center;
+        text-align: center;
+    }
+
+    #employees-section .employee h2 {
+        text-decoration: none;
+        margin-bottom: 2%;
+    }
+}
